@@ -68,8 +68,9 @@ int main()
 	Pista nascar;
 	
 	nascar.CriarPistaComCarros();
-	//nascar.SimularCorrida();
 	nascar.SimularTempo();
+	nascar.SimularCorrida();
+	
 	system("pause");
 	
     return 0;
