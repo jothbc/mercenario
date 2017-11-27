@@ -59,7 +59,7 @@ struct Pista {
 			}
 		}
 		for (int i = 0; i < 5; i++) {
-			cout << "O carro " << carros[i].nome << " percorreu aproximadamente" << carros[i].percorrido << " km." << endl;
+			cout << "O carro " << carros[i].nome << " percorreu aproximadamente " << carros[i].percorrido /1000<< " km." << endl;
 		}
 	}
 };
@@ -68,7 +68,7 @@ int main()
 	Pista nascar;
 	
 	nascar.CriarPistaComCarros();
-	nascar.SimularCorrida();
+	//nascar.SimularCorrida();
 	nascar.SimularTempo();
 	system("pause");
 	
